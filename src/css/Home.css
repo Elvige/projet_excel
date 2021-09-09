@@ -1,0 +1,57 @@
+body
+{
+  background-color: #282c34;
+  /* background-image: url("./images/astuces-Exce.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+.titre
+{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #229954;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 40px;
+    text-decoration: underline;
+}
+.contenu
+{
+  background-color: white;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0px 25px 25px 10px black;
+  margin-bottom: 130px;
+  margin-top: 130px;
+}
+.div-form
+{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+}
+.form-group label
+{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.form-group input
+{
+  margin-bottom: 10px;
+}
+.form-group select
+{
+  margin-bottom: 10px;
+}
+.div-bouton
+{
+  margin-top: 20px;
+}
+.div-bouton button
+{
+  background-color: darkgreen;
+}
+.div-image
+{
+  background-color: white;
+}

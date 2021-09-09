@@ -1,0 +1,19 @@
+.title_tablebd
+{
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div-tablebd
+{
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+}
+.div-tablebd thead
+{
+    background-color: #229954;
+    color: white;
+}

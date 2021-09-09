@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css"
+import Header from "./composants/Header";
+import Footer from "./composants/Footer";
+import Liste from "./composants/Liste";
+import Bd from "./composants/Bd";
+import Home from "./composants/Home";
+import Listebd from "./composants/Listebd";
+import "./css/Home.css";
+import "./css/Header.css";
+import "./css/Footer.css";
+import "./css/Liste.css";
+import "./css/Bd.css";
+import "./css/Listebd.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
+
+class Fichier extends React.Component{
+
+  render (){
+    return <Router>
+      <div>
+        <Header/>
+        <Switch>
+          <Route path="/" exact component={Home}/>
+          <Route path="/liste" component={Liste}/>
+          <Route path="/bd" component={Bd}/>
+          <Route path="/listebd" component={Listebd}/>
+        </Switch> 
+        <Footer/>
+      </div>
+    </Router>    
+  }
+
 }
 
-export default App;
+export default Fichier;
