@@ -32,6 +32,11 @@ class Liste extends React.Component{
                         <td>Thornton</td>
                         <td>@twitter</td>
                     </tr>
+                    <tr>
+                        <td>Larry</td>
+                        <td>Thorn</td>
+                        <td>@skype</td>
+                    </tr>
                 </tbody>
             </table>
         </div> 
